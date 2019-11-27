@@ -1,1 +1,7 @@
 git clone https://github.com/PhasesResearchLab/ESPEI-datasets.git ~
+cat <<EOF >> ~/.config/dask/distributed.yaml
+distributed:
+  version: 2
+  scheduler:
+    work-stealing: False
+EOF
