@@ -1,4 +1,4 @@
-git clone https://github.com/PhasesResearchLab/ESPEI-datasets.git ~
+git clone https://github.com/PhasesResearchLab/ESPEI-datasets.git ~/ESPEI-datasets
 cat <<EOF >> ~/.config/dask/distributed.yaml
 distributed:
   version: 2
